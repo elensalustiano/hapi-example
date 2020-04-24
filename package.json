@@ -1,0 +1,21 @@
+{
+  "name": "hapi-example",
+  "version": "1.0.0",
+  "description": "This example will show how to set up a basic hapi server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.0",
+    "hapi-swagger": "^13.0.0"
+  }
+}
